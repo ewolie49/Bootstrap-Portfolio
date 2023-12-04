@@ -1,0 +1,153 @@
+
+* { color: white !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+:root {
+    --main-color: rgb(233, 186, 44);
+    --second-color: rgb(56, 44, 3);
+    --workbuttons:  rgb(71, 54, 2);
+}
+
+body {
+    background-color: var(--main-color);
+}
+
+/*Navigation Bar*/
+.customNav {
+    background-color: var(--main-color) !important;
+    color: white !important;
+
+}
+
+    
+
+
+/* Hero section */
+header.masthead {
+    position: relative;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    color: white;
+    background: url(../images/Landscapehero.jpg);
+    background-size: cover;
+  }
+  
+  header.masthead .header-content {
+    max-width: 500px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  
+  header.masthead .header-content h1 {
+    font-size: 30px;
+  }
+  
+  header.masthead .device-container {
+    max-width: 325px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  header.masthead .device-container .screen img {
+    border-radius: 3px;
+  }
+
+  .img-fluid { border-radius: 100px;}
+
+header button {
+    background-color: var(--main-color)!important ;
+    border: none !important;
+
+}
+
+header button:hover {
+    
+        box-shadow: rgb(224, 228, 218) 5px 5px 5px 5px;
+      cursor:pointer;
+    }
+
+
+
+/* WorkSection */
+.work {
+    background-color: var(--main-color) !important;
+}
+
+.card-body {
+    background-color: var(--main-color);
+}
+
+#WorkSectionTitle {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.cardContainer {
+    margin-top: 25px;
+    text-align: center;
+  }
+
+.workbuttons {
+    background-color: var(--workbuttons) !important;
+    border: none !important;
+    
+}
+
+.card a:hover {
+    box-shadow: rgb(224, 228, 218) 5px 5px 5px 5px;
+  cursor:pointer;
+}
+
+
+
+  /*SkillsSection*/
+
+  .skills {
+    background-color: var(--main-color) !important;
+  }
+
+  #SkillsSectionTitle {
+    text-align: center;
+    margin-top: 50px;}
+  
+  .imageContainer img {
+    width:100%;
+    border-radius: 30px;
+  }
+
+  .imageContainer {
+    padding: 50px;
+  }
+  .container-fluid .skills {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  
+  }
+
+
+  /*Contact Me*/
+
+  .ContactMe {
+    background-color: rgb(225, 213, 175);
+    background-size: cover;
+    border-radius: 30px;
+    
+    padding: 15px;
+  }
+
+  #ContactMe {
+    text-align: center;
+    padding-top: 30px;
+    }
+
+    /*footer*/
+footer {
+    padding-top: 15px;
+    margin-top: 5px;
+    height: 60px;
+    text-align: center;
+    background-color: var(--second-color) !important;
+}
