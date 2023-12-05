@@ -17,7 +17,7 @@ If you hover the buttons, a shadow will show and the mouse icon will change into
 The first two examples in the work section link to my previous work. For the rest of the images I have used a placeholder.
 
     
-![Screenshot](/images/Screenshot%202023-12-04%20at%2020.50.28.png)
+![Screenshot](/images/Screenshot.png)
     
 
 ## Credits
